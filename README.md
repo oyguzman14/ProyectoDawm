@@ -12,3 +12,4 @@ Descripcion del proyecto:
 Plantillas de BootStrap:
 Cliente: https://startbootstrap.com/previews/creative
 Administrador: https://demos.creative-tim.com/bs3/paper-dashboard/dashboard.html?_ga=2.100093470.1440281688.1604604711-1820646135.1604604711
+Archivo html: https://github.com/oyguzman14/ProyectoDawm/blob/main/inicio.html
