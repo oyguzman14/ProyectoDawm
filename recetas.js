@@ -20,7 +20,7 @@ function filtrarRecetas(){
 function filtrarCatalogo(){
     let fl=document.getElementById("myInput");
     let filtro=fl.value.toUpperCase();
-    let filas=document.getElementsByClassName("row")[1]
+    let filas=document.getElementById("row");
     let tarjetas=filas.getElementsByClassName("bocado")
     for (let elemento of tarjetas){
         let comparar=elemento.textContent.toUpperCase();

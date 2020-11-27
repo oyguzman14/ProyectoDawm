@@ -1,0 +1,17 @@
+{
+  "esversion": 6,
+  "undef": true,
+  "unused": true,
+  "eqeqeq": true,
+  "globals": {
+    "window": true,
+    "document": true,
+    "exports": true,
+    "define": true,
+    "SVGElement": true,
+    "module": true,
+    "console": true,
+    "global": true,
+    "self": true
+  }
+}
