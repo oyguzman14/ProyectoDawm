@@ -10,6 +10,7 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+ /*Para declarar variables globales que se van a usar en el css*/
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -49,6 +50,7 @@
 
 /*CREADOS CONTACTO*/
 /*COLOR NEGRO #343a40*/
+
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -69,9 +71,12 @@
   background: #00bb2d;
   color: white;
 }
+
 .text-muted-1{
   color: #fec503;
 }
+
+/*Se usa para poner bonito el mapa*/
 iframe{
   width: 100%;
   height: 600px;
@@ -104,23 +109,26 @@ header.masthead-1 {
   padding: 30px 0px 20px;
 }
 
+/*Para ponerle color a las esferitas de sobre nosotros*/
 #timeline-end{
   color: #343a40;
 }
 /*FIN*/
 
-
+/*Arregla todo el html*/
 html {
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+/*
+article, aside, figcaption, figure, footer, */
 
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+header, hgroup, main, nav, section {
   display: block;
 }
-
+/*Esto arregla todas las letras y estilo del body de todas las paginas*/
 body {
   margin: 0;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -135,7 +143,7 @@ body {
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
-
+/*etiquetas de las cosas*/
 hr {
   box-sizing: content-box;
   height: 0;
@@ -240,7 +248,7 @@ a:not([href]):not([class]):hover {
   text-decoration: none;
 }
 
-pre,
+/*pre,
 code,
 kbd,
 samp {
@@ -253,7 +261,7 @@ pre {
   margin-bottom: 1rem;
   overflow: auto;
   -ms-overflow-style: scrollbar;
-}
+}*/
 
 figure {
   margin: 0 0 1rem;
@@ -263,7 +271,7 @@ img {
   vertical-align: middle;
   border-style: none;
 }
-
+/*
 svg {
   overflow: hidden;
   vertical-align: middle;
@@ -279,7 +287,7 @@ caption {
   color: #6c757d;
   text-align: left;
   caption-side: bottom;
-}
+}*/
 
 th {
   text-align: inherit;
@@ -361,7 +369,7 @@ textarea {
   overflow: auto;
   resize: vertical;
 }
-
+/*
 fieldset {
   min-width: 0;
   padding: 0;
@@ -383,7 +391,7 @@ legend {
 
 progress {
   vertical-align: baseline;
-}
+}*/
 
 [type=number]::-webkit-inner-spin-button,
 [type=number]::-webkit-outer-spin-button {
@@ -1510,7 +1518,7 @@ pre code {
     flex-grow: 1;
     max-width: 100%;
   }
-
+/*
   .row-cols-xl-1 > * {
     flex: 0 0 100%;
     max-width: 100%;
@@ -1540,13 +1548,14 @@ pre code {
     flex: 0 0 16.6666666667%;
     max-width: 16.6666666667%;
   }
+  */
 
   .col-xl-auto {
     flex: 0 0 auto;
     width: auto;
     max-width: 100%;
   }
-
+/*
   .col-xl-1 {
     flex: 0 0 8.3333333333%;
     max-width: 8.3333333333%;
@@ -1606,15 +1615,16 @@ pre code {
     flex: 0 0 100%;
     max-width: 100%;
   }
-
+  */
+/*
   .order-xl-first {
     order: -1;
   }
 
   .order-xl-last {
     order: 13;
-  }
-
+  }*/
+/*
   .order-xl-0 {
     order: 0;
   }
@@ -1666,7 +1676,7 @@ pre code {
   .order-xl-12 {
     order: 12;
   }
-
+/*
   .offset-xl-0 {
     margin-left: 0;
   }
@@ -1714,7 +1724,9 @@ pre code {
   .offset-xl-11 {
     margin-left: 91.6666666667%;
   }
+  */
 }
+/*
 .table {
   width: 100%;
   margin-bottom: 1rem;
@@ -2026,6 +2038,8 @@ pre code {
   border: 0;
 }
 
+*/
+
 .form-control {
   display: block;
   width: 100%;
@@ -2098,6 +2112,7 @@ select.form-control:focus::-ms-value {
   width: 100%;
 }
 
+/*
 .col-form-label {
   padding-top: calc(0.375rem + 1px);
   padding-bottom: calc(0.375rem + 1px);
@@ -2119,7 +2134,8 @@ select.form-control:focus::-ms-value {
   font-size: 0.875rem;
   line-height: 1.5;
 }
-
+*/
+/*
 .form-control-plaintext {
   display: block;
   width: 100%;
@@ -2136,7 +2152,8 @@ select.form-control:focus::-ms-value {
   padding-right: 0;
   padding-left: 0;
 }
-
+*/
+/*
 .form-control-sm {
   height: calc(1.5em + 0.5rem + 2px);
   padding: 0.25rem 0.5rem;
@@ -2144,7 +2161,8 @@ select.form-control:focus::-ms-value {
   line-height: 1.5;
   border-radius: 0.2rem;
 }
-
+*/
+/*
 .form-control-lg {
   height: calc(1.5em + 1rem + 2px);
   padding: 0.5rem 1rem;
@@ -2152,7 +2170,7 @@ select.form-control:focus::-ms-value {
   line-height: 1.5;
   border-radius: 0.3rem;
 }
-
+*/
 select.form-control[size], select.form-control[multiple] {
   height: auto;
 }
@@ -2164,7 +2182,7 @@ textarea.form-control {
 .form-group {
   margin-bottom: 1rem;
 }
-
+/*
 .form-text {
   display: block;
   margin-top: 0.25rem;
@@ -2181,7 +2199,8 @@ textarea.form-control {
   padding-right: 5px;
   padding-left: 5px;
 }
-
+*/
+/*
 .form-check {
   position: relative;
   display: block;
@@ -2221,7 +2240,8 @@ textarea.form-control {
   font-size: 80%;
   color: #28a745;
 }
-
+*/
+/*
 .valid-tooltip {
   position: absolute;
   top: 100%;
@@ -2237,13 +2257,16 @@ textarea.form-control {
   background-color: rgba(40, 167, 69, 0.9);
   border-radius: 0.25rem;
 }
+*/
 
+/*
 .was-validated :valid ~ .valid-feedback,
 .was-validated :valid ~ .valid-tooltip,
 .is-valid ~ .valid-feedback,
 .is-valid ~ .valid-tooltip {
   display: block;
 }
+
 
 .was-validated .form-control:valid, .form-control.is-valid {
   border-color: #28a745;
@@ -2306,6 +2329,7 @@ textarea.form-control {
   border-color: #28a745;
   box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
 }
+*/
 
 .invalid-feedback {
   display: none;
@@ -2330,7 +2354,7 @@ textarea.form-control {
   background-color: rgba(220, 53, 69, 0.9);
   border-radius: 0.25rem;
 }
-
+/*
 .was-validated :invalid ~ .invalid-feedback,
 .was-validated :invalid ~ .invalid-tooltip,
 .is-invalid ~ .invalid-feedback,
@@ -2399,7 +2423,9 @@ textarea.form-control {
   border-color: #dc3545;
   box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
 }
+*/
 
+/*
 .form-inline {
   display: flex;
   flex-flow: row wrap;
@@ -2455,6 +2481,7 @@ textarea.form-control {
   .form-inline .custom-control-label {
     margin-bottom: 0;
   }
+  */
 }
 
 .btn {
@@ -2648,7 +2675,7 @@ fieldset:disabled a.btn {
 .btn-warning:not(:disabled):not(.disabled):active:focus, .btn-warning:not(:disabled):not(.disabled).active:focus, .show > .btn-warning.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(254, 216, 84, 0.5);
 }
-
+/*
 .btn-danger {
   color: #fff;
   background-color: #dc3545;
@@ -2677,7 +2704,7 @@ fieldset:disabled a.btn {
 }
 .btn-danger:not(:disabled):not(.disabled):active:focus, .btn-danger:not(:disabled):not(.disabled).active:focus, .show > .btn-danger.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(225, 83, 97, 0.5);
-}
+}*/
 
 .btn-light {
   color: #212529;
