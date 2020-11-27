@@ -10514,5 +10514,6 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 #myInput{
+  margin-top: 2%;
   margin-bottom: 2%;
 }
