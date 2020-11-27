@@ -10512,3 +10512,7 @@ section#contact form#contactForm :-ms-input-placeholder {
     width: 45%;
   }
 }
+
+#myInput{
+  margin-bottom: 2%;
+}
