@@ -32,6 +32,12 @@ Coded by www.creative-tim.com
   <link href="../assets/css/paper-dashboard.css?v=2.0.1" rel="stylesheet" />
   <!-- CSS Just for demo purpose, don't include it in your project -->
   <link href="../assets/demo/demo.css" rel="stylesheet" />
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+        <script src="libs/raphael-min.js"></script>
+
+        <link rel="stylesheet" href="libs/morris.css">
+        <script src="libs/morris.min.js"></script>
 </head>
 
 <body class="">
@@ -280,12 +286,24 @@ Coded by www.creative-tim.com
           <div class="col-md-12">
             <div class="card ">
               <div class="card-header ">
-                <h5 class="card-title">Users Behavior</h5>
-                <p class="card-category">24 Hours performance</p>
+                <h5 class="card-title">Cantidad de Productos por categorias</h5>
               </div>
-              <div class="card-body ">
-                <canvas id=chartHours width="400" height="100"></canvas>
+
+              <div id="myfirstchart">
+
               </div>
+
+
+
+
+
+
+
+
+
+
+
+              
               <div class="card-footer ">
                 <hr>
                 <div class="stats">
@@ -384,6 +402,10 @@ Coded by www.creative-tim.com
       demo.initChartsPages();
     });
   </script>
+  <script src="../../js/grafico.js"></script>
+
+
+
 </body>
 
 </html>
