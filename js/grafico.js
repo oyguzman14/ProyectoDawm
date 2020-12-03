@@ -25,7 +25,7 @@ fetch("../../data/tortas.json")
             }
 
             if(value){
-                arreglo[num].cantidad+=1
+                arreglo[num].cantidad+=1;
             }else{
                 arreglo.push({categoria:nuevo.categoria,cantidad:0})
             }

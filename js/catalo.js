@@ -23,7 +23,7 @@ function cargarDatos(){
                 <h4 class="card-title">
                   <a class="bocado" href="#">${torta.nombre}</a>
                 </h4>
-                <h5>${torta.precio+ "c/100"} </h5>
+                <h5>${torta.precio} </h5>
                 <p class="card-text">${torta.descripcion}</p>
               </div>
              
