@@ -81,8 +81,7 @@
     "descripcion": "Cakepops de vainilla o chocolate cubiertos de chocolate blanco",
     "precio": "$1.50",
     "imagen":"imgcat/cakepops1.PNG",
-    "categoria":"Cakepops"
-    
+    "categoria":"Cakepops"  
   },
   {
     "nombre": "Rosas",
@@ -124,15 +123,7 @@
     "descripcion": "Cakepops de vainilla o chocolate cubiertos de chocolate blanco",
     "precio": "$1.50",
     "imagen":"imgcat/cakepops7.PNG",
-    "categoria":"Cakepops"
-    
-  },
-  {
-    "nombre": "Navidad",
-    "descripcion": "Cakepops de vainilla o chocolate cubiertos de chocolate blanco",
-    "precio": "$1.50",
-    "imagen":"imgcat/cakepops8.PNG",
-    "categoria":"Cakepops"
+    "categoria":"Cakepops"  
   },
   {
     "nombre": "Frutas",
@@ -252,7 +243,6 @@
     "precio": "$50",
     "imagen":"imgcat/tortas4.PNG",
     "categoria":"Tortas"
-
   },
   {
     "nombre": "Torta de circo",
