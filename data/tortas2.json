@@ -1,0 +1,267 @@
+[
+  {
+    "nombre": "Frutas de mazapan",
+    "descripcion": "Frutas hechas de mazapan en forma de frutas",
+    "precio": "$15",
+    "imagen":"imgcat/bocaditos1.PNG"
+    
+  },
+  {
+    "nombre": "Macarons",
+    "descripcion": "Alfajores de pan con crema pastelera de diferentes colores",
+    "precio": "$18",
+    "imagen":"imgcat/bocaditos2.PNG"
+    
+  },
+  {
+    "nombre": "Mini brownies",
+    "descripcion": "Pequeños brownies decorados con tus dulces favoritos!",
+    "precio": "$5",
+    "imagen":"imgcat/bocaditos3.PNG"
+    
+  },
+  {
+    "nombre": "Brigadeiros",
+    "descripcion": "Bolas de chocolate cubiertas de birutitas de chocolate",
+    "precio": "$5",
+    "imagen":"imgcat/bocaditos4.PNG"
+    
+  },
+  {
+    "nombre": "Delicias de novia",
+    "descripcion": "Bocaditos de sal con nueces bañadas de chocolate blanco",
+    "precio": "$5",
+    "imagen":"imgcat/bocaditos5.PNG"
+    
+  },
+  {
+    "nombre": "Mini empanadas rellenas",
+    "descripcion": "Empanadas rellenas de pollo, carne o jamón y queso",
+    "precio": "$5",
+    "imagen":"imgcat/bocaditos6.PNG"
+    
+  },
+  {
+    "nombre": "Brochetas de carne",
+    "descripcion": "Lomo en forma de chuzos con vegetales",
+    "precio": "$10",
+    "imagen":"imgcat/bocaditos7.PNG"
+    
+  },
+  {
+    "nombre": "Caracoles con manjar",
+    "descripcion": "Caracoles con masa de pan rellenos de manjar",
+    "precio": "$13",
+    "imagen":"imgcat/bocaditos8.PNG"
+   
+  },
+  {
+    "nombre": "Frutillas con crema",
+    "descripcion": "Fresas banadas en chocolate",
+    "precio": "$12",
+    "imagen":"imgcat/bocaditos10.PNG"
+    
+  },
+  {
+    "nombre": "Shots de oreo",
+    "descripcion": "Vasitos rellenos de crema chantilli, oreo, y manjar",
+    "precio": "$15",
+    "imagen":"imgcat/bocaditos11.PNG"
+    
+  },
+  {
+    "nombre": "Marshmallow con chocolate",
+    "descripcion": "Marshmallows en palitos banados de chocolate",
+    "precio": "$5",
+    "imagen":"imgcat/bocaditos14.PNG"
+    
+  },
+  {
+    "nombre": "Lazos",
+    "descripcion": "Cakepops de vainilla o chocolate cubiertos de chocolate blanco",
+    "precio": "$1.50",
+    "imagen":"imgcat/cakepops1.PNG"
+    
+    
+  },
+  {
+    "nombre": "Rosas",
+    "descripcion": "Cakepops de vainilla o chocolate cubiertos de chocolate blanco",
+    "precio": "$1.50",
+    "imagen":"imgcat/cakepops2.PNG"
+   
+  },
+  {
+    "nombre": "Flores",
+    "descripcion": "Cakepops de vainilla o chocolate cubiertos de chocolate blanco",
+    "precio": "$1.50",
+    "imagen":"imgcat/cakepops3.PNG"
+    
+  },
+  {
+    "nombre": "San Valentin",
+    "descripcion": "Cakepops de vainilla o chocolate cubiertos de chocolate blanco",
+    "precio": "$1.50",
+    "imagen":"imgcat/cakepops4.PNG"
+    
+  },
+  {
+    "nombre": "Navidad",
+    "descripcion": "Cakepops de vainilla o chocolate cubiertos de chocolate blanco",
+    "precio": "$1.50",
+    "imagen":"imgcat/cakepops5.PNG"
+   
+  },
+  {
+    "nombre": "Bautizos",
+    "descripcion": "Cakepops de vainilla o chocolate cubiertos de chocolate blanco",
+    "precio": "$1.50",
+    "imagen":"imgcat/cakepops6.PNG"
+    
+  },
+  {
+    "nombre": "Oceano",
+    "descripcion": "Cakepops de vainilla o chocolate cubiertos de chocolate blanco",
+    "precio": "$1.50",
+    "imagen":"imgcat/cakepops7.PNG"
+    
+    
+  },
+  {
+    "nombre": "Navidad",
+    "descripcion": "Cakepops de vainilla o chocolate cubiertos de chocolate blanco",
+    "precio": "$1.50",
+    "imagen":"imgcat/cakepops8.PNG"
+    
+  },
+  {
+    "nombre": "Frutas",
+    "descripcion": "Cakepops de vainilla o chocolate cubiertos de chocolate blanco",
+    "precio": "$1.50",
+    "imagen":"imgcat/cakepops10.PNG"
+    
+  },
+  {
+    "nombre": "Boda",
+    "descripcion": "Cakepops de vainilla o chocolate cubiertos de chocolate blanco",
+    "precio": "$1.50",
+    "imagen":"imgcat/cakepops11.PNG"
+   
+  },
+  {
+    "nombre": "Nubes",
+    "descripcion": "Cakepops de vainilla o chocolate cubiertos de chocolate blanco",
+    "precio": "$1.50",
+    "imagen":"imgcat/cakepops12.PNG"
+    
+  },
+  {
+    "nombre": "Cupcakes chocolate",
+    "descripcion": "Cupcakes de chocolate o vainilla rellenos de manjar con cubierta de crema y decoradas con grajeas de colores",
+    "precio": "$1.50",
+    "imagen":"imgcat/cupcakes1.PNG"
+  },
+  {
+    "nombre": "Cupcakes make-up",
+    "descripcion": "Cupcakes de chocolate o vainilla rellenos de manjar con cubierta de crema y decoradas con formas hechas de fondant en alto relieve",
+    "precio": "$2.75",
+    "imagen":"imgcat/cupcakes2.PNG"
+  },
+  {
+    "nombre": "Cupcake minions",
+    "descripcion": "Cupcakes de chocolate o vainilla rellenos de manjar con cubierta de crema y decoradas con formas hechas de fondant",
+    "precio": "$2.50",
+    "imagen":"imgcat/cupcakes3.PNG"
+  },
+  {
+    "nombre": "Cupcakes golf",
+    "descripcion": "Cupcakes de chocolate o vainilla rellenos de manjar con cubierta de crema y decoradas con formas hechas de fondant",
+    "precio": "$2.50",
+    "imagen":"imgcat/cupcakes4.PNG"
+  },
+  {
+    "nombre": "Cupcakes lol",
+    "descripcion": "Cupcakes de chocolate o vainilla rellenos de manjar con cubierta de crema y decoradas con cartulinas de tus personajes favoritos!",
+    "precio": "$1.75",
+    "imagen":"imgcat/cupcakes5.PNG"
+  },
+  {
+    "nombre": "Cupcakes abejitas",
+    "descripcion": "Cupcakes de chocolate o vainilla rellenos de manjar con cubierta de crema y decoradas con una abejita de fondant!",
+    "precio": "$2",
+    "imagen":"imgcat/cupcakes6.PNG"
+  },
+  {
+    "nombre": "Cupcakes halloween",
+    "descripcion": "Cupcakes de chocolate o vainilla rellenos de manjar con cubierta de crema y decoradas con fondant en tematica de halloween",
+    "precio": "$1.75",
+    "imagen":"imgcat/cupcakes8.PNG"
+  },
+  {
+    "nombre": "Cupcakes toy-story",
+    "descripcion": "Cupcakes de chocolate o vainilla rellenos de manjar con cubierta de crema y decoradas con formas hechas de fondant en alto relieve",
+    "precio": "$2.75",
+    "imagen":"imgcat/cupcakes10.PNG"
+  },
+  {
+    "nombre": "Cupcake ladybugs",
+    "descripcion": "Cupcakes de chocolate o vainilla rellenos de manjar con cubierta de crema y decoradas con formas hechas de fondant",
+    "precio": "$2.50",
+    "imagen":"imgcat/cupcakes12.PNG"
+  },
+  {
+    "nombre": "Cupcakes sirena",
+    "descripcion": "Cupcakes de chocolate o vainilla rellenos de manjar con cubierta de crema y decoradas con formas hechas de fondant",
+    "precio": "$2.50",
+    "imagen":"imgcat/cupcakes13.PNG"
+  },
+  {
+    "nombre": "Torta de sirena",
+    "descripcion": "Cake de vainilla decorada con temática de sirena",
+    "precio": "$35",
+    "imagen":"imgcat/tortas1.PNG"
+  },
+  {
+    "nombre": "Torta de de Toy Story",
+    "descripcion": "Torta de chocolate decorada al estilo del favorito de los pequeños TOY STORY!",
+    "precio": "$40",
+    "imagen":"imgcat/tortas2.PNG"
+  },
+  {
+    "nombre": "Torta para bautizos",
+    "descripcion": "Decorada para cualquier bautizo, de  niños y niñas",
+    "precio": "$40",
+    "imagen":"imgcat/tortas3.PNG"
+  },
+  {
+    "nombre": "Torta de Game of Thrones",
+    "descripcion": "Para verdaderos fans!",
+    "precio": "$50",
+    "imagen":"imgcat/tortas4.PNG"
+
+  },
+  {
+    "nombre": "Torta de circo",
+    "descripcion": "Para los fans de la verdadera diversion! Cake decorado con temática de circo!",
+    "precio": "$25",
+    "imagen":"imgcat/tortas5.PNG"
+  },
+  {
+    "nombre": "Torta de hamburguesa",
+    "descripcion": "Para los amantes de la comida rápida, torta en forma de hamburguesa!",
+    "precio": "$55",
+    "imagen":"imgcat/tortas8.PNG"
+  },
+  {
+    "nombre": "Torta jack Daniels",
+    "descripcion": "Para los fans de lo bueno! Torta en forma de barril con botellas de jack Daniels",
+    "precio": "$50",
+    "imagen":"imgcat/tortas9.PNG"
+  },
+  {
+    "nombre": "Torta libros",
+    "descripcion": "Para los amantes de la lectura, torta en forma de libros",
+    "precio": "$55",
+    "imagen":"imgcat/tortas12.PNG"
+  }
+]

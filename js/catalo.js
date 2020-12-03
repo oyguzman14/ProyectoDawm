@@ -1,6 +1,6 @@
 function cargarDatos(){
 
-    fetch('data/tortas.json')
+    fetch('data/tortas2.json')
     .then(function(res){
         return res.json();
     })
