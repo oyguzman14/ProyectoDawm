@@ -10676,3 +10676,6 @@ section#contact form#contactForm :-ms-input-placeholder {
   margin-top: 2%;
   margin-bottom: 2%;
 }
+#map {
+  height: 100%;
+}
