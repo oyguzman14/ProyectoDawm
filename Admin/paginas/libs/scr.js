@@ -4,6 +4,7 @@ $(document).ready(function () {
         allNextBtn = $('.nextBtn'),
         allPrevBtn = $('.prevBtn');
 
+
     allWells.hide();
 
     navListItems.click(function (e) {
@@ -19,6 +20,12 @@ $(document).ready(function () {
             $target.find('input:eq(0)').focus();
         }
     });
+
+
+
+
+
+
 
     allPrevBtn.click(function(){
         var curStep = $(this).closest(".setup-content"),
@@ -49,3 +56,12 @@ $(document).ready(function () {
 
     $('div.setup-panel div a.btn-indigo').trigger('click');
 });
+
+
+var bf=document.getElementById("enviar")
+bf.addEventListener('click',function(){
+
+alert('Usuario Registrado')
+
+
+})
