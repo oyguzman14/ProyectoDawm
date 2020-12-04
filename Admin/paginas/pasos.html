@@ -33,11 +33,24 @@ Coded by www.creative-tim.com
   <!-- CSS Just for demo purpose, don't include it in your project -->
   <link href="../assets/demo/demo.css" rel="stylesheet" />
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-        <script src="libs/raphael-min.js"></script>
+  <!--Nuevo Steps-->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="nuevo.css">
+  <!-- MDBootstrap Steppers Pro  -->
+<!--link href="css/addons-pro/steppers.min.css" rel="stylesheet"-->
 
-        <link rel="stylesheet" href="libs/morris.css">
-        <script src="libs/morris.min.js"></script>
+
+
 </head>
 
 <body class="">
@@ -59,9 +72,6 @@ Coded by www.creative-tim.com
       </div>
       <div class="sidebar-wrapper">
         <ul class="nav">
-
-
-        <!--ESTA ES LA PARTE DEL MENU-->
           <li class="active ">
             <a href="./dashboard.html">
               <i class="nc-icon nc-bank"></i>
@@ -80,18 +90,6 @@ Coded by www.creative-tim.com
               <p>Productos</p>
             </a>
           </li>
-          <li>
-            <a href="./pasos.html">
-              <i class="nc-icon nc-tile-56"></i>
-              <p>Productos</p>
-            </a>
-          </li>
-
-
-
-
-
-
         </ul>
       </div>
     </div>
@@ -107,7 +105,7 @@ Coded by www.creative-tim.com
                 <span class="navbar-toggler-bar bar3"></span>
               </button>
             </div>
-            <a class="navbar-brand" href="javascript:;">Resumen</a>
+            <a class="navbar-brand" href="javascript:;">Pasos</a>
           </div>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-bar navbar-kebab"></span>
@@ -161,101 +159,103 @@ Coded by www.creative-tim.com
       </nav>
       <!-- End Navbar -->
       <div class="content">
-        <div class="row">
+        
 
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <div class="card card-stats">
-              <div class="card-body ">
-                <div class="row">
-                  <div class="col-5 col-md-4">
-                    <div class="icon-big text-center icon-warning">
-                      <img src="../../assets/img/fb.jpeg" alt="">
-                    </div>
-                  </div>
-                  <div class="col-7 col-md-8">
-                    <div class="numbers">
-                      <p class="card-category">Seguidores de instagram</p>
-                      <p class="card-title">255<p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="card-footer ">
-                <hr>
-                <div class="stats">
-                  <i class="fa fa-refresh"></i>
-                  Update now
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <div class="card card-stats">
-              <div class="card-body ">
-                <div class="row">
-                  <div class="col-5 col-md-4">
-                    <div class="icon-big text-center icon-warning">
-                      <img src="../../assets/img/it.jpeg" alt="">
-                    </div>
-                  </div>
-                  <div class="col-7 col-md-8">
-                    <div class="numbers">
-                      <p class="card-category">Seguidores de Facebook</p>
-                      <p class="card-title">1049<p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="card-footer ">
-                <hr>
-                <div class="stats">
-                  <i class="fa fa-refresh"></i>
-                  Update now
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-            <div class="card ">
-              <div class="card-header ">
-                <h5 class="card-title">Cantidad de Productos por categorias</h5>
-              </div>
 
-              <div id="myfirstchart">
 
-              </div>
-              <div class="card-footer ">
-                <hr>
-                <div class="stats">
-                  <i class="fa fa-history"></i> Updated 3 minutes ago
+        <div>
+
+
+          <!-- Steps form -->
+          <div class="card">
+            <div class="card-body mb-4">
+          
+                <h2 class="text-center font-weight-bold pt-4 pb-5"><strong>Registro</strong></h2>
+          
+                <!-- Stepper -->
+                <div class="steps-form">
+                    <div class="steps-row setup-panel">
+                        <div class="steps-step">
+                            <a href="#step-9" type="button" class="btn btn-indigo btn-circle">1</a>
+                            <p>Paso 1</p>
+                        </div>
+                        <div class="steps-step">
+                            <a href="#step-10" type="button" class="btn btn-default btn-circle" disabled="disabled">2</a>
+                            <p>Paso 2</p>
+                        </div>
+                        <div class="steps-step">
+                            <a href="#step-11" type="button" class="btn btn-default btn-circle" disabled="disabled">3</a>
+                            <p>Paso 3</p>
+                        </div>
+                    </div>
                 </div>
-              </div>
+          
+                <form role="form" action="" method="post">
+          
+                    <!-- First Step -->
+                    <div class="row setup-content" id="step-9">
+                        <div class="col-md-12">
+                            <h3 class="font-weight-bold pl-0 my-4"><strong>Paso 1</strong></h3>
+                            <div class="form-group md-form">
+                                <label for="yourName" data-error="wrong" data-success="right">Nombre</label>
+                                <input id="yourName" type="text" required="required" class="form-control validate">
+                            </div>
+                            <div class="form-group md-form mt-3">
+                                <label for="yourLastName" data-error="wrong" data-success="right">Apellido</label>
+                                <input id="yourLastName" type="text" required="required" class="form-control validate">
+                            </div>
+                            <div class="form-group md-form mt-3">
+                                <label for="yourAddress" data-error="wrong" data-success="right">Dirección</label>
+                                <textarea id="yourAddress" type="text" required="required" rows="2" class="md-textarea validate form-control"></textarea>
+                            </div>
+                            <button class="btn btn-indigo btn-rounded nextBtn float-right" type="button">Siguiente</button>
+                        </div>
+                    </div>
+          
+                    <!-- Second Step -->
+                    <div class="row setup-content" id="step-10">
+                        <div class="col-md-12">
+                            <h3 class="font-weight-bold pl-0 my-4"><strong>Paso 2</strong></h3>
+                            <div class="form-group md-form">
+                                <label for="companyName" data-error="wrong" data-success="right">Company Name</label>
+                                <input id="companyName" type="text" required="required" class="form-control validate">
+                            </div>
+                            <div class="form-group md-form mt-3">
+                                <label for="companyAddress" data-error="wrong" data-success="right">Company Address</label>
+                                <input id="companyAddress" type="text" required="required" class="form-control validate">
+                            </div>
+                            <button class="btn btn-indigo btn-rounded prevBtn float-left" type="button">Atrás</button>
+                            <button class="btn btn-indigo btn-rounded nextBtn float-right" type="button">Siguiente</button>
+                        </div>
+                    </div>
+          
+                    <!-- Third Step -->
+                    <div class="row setup-content" id="step-11">
+                        <div class="col-md-12">
+                            <h3 class="font-weight-bold pl-0 my-4"><strong>Paso 3</strong></h3>
+                            <button class="btn btn-indigo btn-rounded prevBtn float-left" type="button">Atrás</button>
+                            <button class="btn btn-default btn-rounded float-right" type="submit">Enviar</button>
+                        </div>
+                    </div>
+          
+                </form>
+          
             </div>
           </div>
-        </div>
-      </div>
-      <footer class="footer footer-black  footer-white ">
-        <div class="container-fluid">
-          <div class="row">
-            <nav class="footer-nav">
-              <ul>
-                <li><a href="https://www.creative-tim.com" target="_blank">Betsy Gomez</a></li>
-                <li><a href="https://www.creative-tim.com/blog" target="_blank">Blog</a></li>
-              </ul>
-            </nav>
-            <div class="credits ml-auto">
-              <span class="copyright">
-                © <script>
-                  document.write(new Date().getFullYear())
-                </script>, made with <i class="fa fa-heart heart"></i> by SpiderWeb
-              </span>
-            </div>
+          <!-- Steps form -->
+          
+            
           </div>
-        </div>
-      </footer>
-    </div>
+          
+          
+          
+
+
+
+
+
+
+
   </div>
   <!--   Core JS Files   -->
   <script src="../assets/js/core/jquery.min.js"></script>
@@ -271,15 +271,24 @@ Coded by www.creative-tim.com
   <!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
   <script src="../assets/js/paper-dashboard.min.js?v=2.0.1" type="text/javascript"></script><!-- Paper Dashboard DEMO methods, don't include it in your project! -->
   <script src="../assets/demo/demo.js"></script>
-  <script>
-    $(document).ready(function() {
-      // Javascript method's body can be found in assets/assets-for-demo/js/demo.js
-      demo.initChartsPages();
-    });
-  </script>
-  <script src="../../js/grafico.js"></script>
+  <script src="../assets/js/llenarTabla.js"></script>
 
 
+  <!--Nuevo Steps-->
+   <!-- jQuery -->
+   <script type="text/javascript" src="js/jquery.min.js"></script>
+   <!-- Bootstrap tooltips -->
+   <script type="text/javascript" src="js/popper.min.js"></script>
+   <!-- Bootstrap core JavaScript -->
+   <script type="text/javascript" src="js/bootstrap.min.js"></script>
+   <!-- MDB core JavaScript -->
+   <script type="text/javascript" src="js/mdb.min.js"></script>
+   <!-- Your custom scripts (optional) -->
+   <script type="text/javascript"></script>
+   <!-- MDBootstrap Steppers Pro  -->
+ <script type="text/javascript" src="js/addons-pro/steppers.min.js"></script>
+ 
+ <script src="scr.js"></script>
 
 </body>
 
