@@ -9,10 +9,6 @@ fetch("../../data/tortas.json")
     .then((data)=>{
         
         for (let nuevo of data){
-            if(arreglo.length==0){
-                arreglo.push({categoria:nuevo.categoria,cantidad:0})
-   
-            }
 
 
             let value=false
@@ -29,7 +25,7 @@ fetch("../../data/tortas.json")
             if(value){
                 arreglo[num].cantidad+=1;
             }else{
-                arreglo.push({categoria:nuevo.categoria,cantidad:0})
+                arreglo.push({categoria:nuevo.categoria,cantidad:1})
             }
 
         }
