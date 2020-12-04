@@ -88,6 +88,54 @@
   color: #fec503;
 }
 
+/*NUEVOOO*/
+
+#ciudades{
+  padding: 0.375rem 0.75rem;
+  height: 70px;
+}
+
+.fa:hover{
+  filter: brightness(1.5);
+  -webkit-animation: tiembla 1.5s infinite;
+}
+
+@-webkit-keyframes tiembla{
+  0%  { -webkit-transform:rotateZ(-1deg); }
+  50% { -webkit-transform:rotateZ( 0deg) scale(.8); }
+  100%{ -webkit-transform:rotateZ( 1deg); }
+}
+
+.timeline-image{
+  -webkit-transform: translateX(0);
+}
+
+.timeline-image:before{
+  content: '';
+  position: absolute;
+  width: 90%;
+  left: 5%;
+  top: 100%;
+  height: 10px;
+
+  background: -webkit-radial-gradient(
+    center, ellipse, rgba(0,0,0,0.35) 0%,
+    rgba(0,0,0,0) 80%);
+  -webkit-transition-duration : 0.3s;
+  opacity:0;
+
+}
+
+.timeline-image:hover{
+  -webkit-transform: translateY(-3px);
+}
+
+.timeline-image:hover:before{
+  -webkit-transform: translateY(3px);
+  opacity: 1;
+}
+
+
 /*Se usa para poner bonito el mapa*/
 iframe{
   width: 100%;
@@ -114,7 +162,7 @@ header.masthead-1 {
 
 @media (min-width: 768px) {
   header.masthead-1 {
-    padding-bottom: 7rem;
+    padding-bottom: 4rem;
   }
 }
 #about{
@@ -247,8 +295,8 @@ a {
   background-color: transparent;
 }
 a:hover {
-  color: #e6b301;
-  text-decoration: underline;
+  color: #fff;
+  text-decoration: none;
 }
 
 a:not([href]):not([class]) {
