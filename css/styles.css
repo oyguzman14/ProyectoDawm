@@ -10676,3 +10676,20 @@ section#contact form#contactForm :-ms-input-placeholder {
   margin-top: 2%;
   margin-bottom: 2%;
 }
+
+#portfolio .portfolio-item .img-fluid{
+  transition:all .9s ease;
+
+}
+
+#portfolio .portfolio-item .img-fluid:hover{
+  transform: scale(1.1);
+  
+}
+
+
+
+.mapa {
+  margin-top: 2%;
+  height: 900px;
+}
