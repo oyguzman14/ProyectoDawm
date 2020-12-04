@@ -46,11 +46,9 @@ svg {
     
 }
 
-@media (min-width: 1200px) {
-    
-    
-    
-}
 
 
-
+.mapa {
+    margin-top: 2%;
+    height: 900px;
+  }
